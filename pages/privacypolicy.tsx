@@ -66,7 +66,7 @@ const PrivacyPolicy: React.FC = () => {
   We may collect personal information such as your name, email address,
   phone number, and password when you sign up for our services or interact
   with our website. We take the security and confidentiality of your
-  personal information seriously. Here's how we handle your data:
+  personal information seriously. Here is how we handle your data:
 </p>
 
 <ul style={paragraphStyle}>

@@ -5,6 +5,7 @@ import { getSession, signIn } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { FcGoogle } from 'react-icons/fc';
 import { FaGithub } from 'react-icons/fa';
+import Link from 'next/link';
 
 import Input from '@/components/Input';
 
@@ -73,7 +74,7 @@ const Auth = () => {
         <nav className="px-12 py-5">
         <nav className="px-12 py-5 flex justify-between items-center">
       <img src="/images/logo.png" className="h-12" alt="Logo" />
-      <a href="/privacypolicy" className="text-white text-3xl font-semibold">Privacy Policy</a>
+      <Link href="/privacypolicy" className="text-white text-3xl font-semibold">Privacy Policy</Link>
     </nav>
     </nav>
      
